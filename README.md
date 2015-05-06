@@ -9,4 +9,4 @@
 * JS Web Interface to Raspberry PI
 
 ## Other Contributions
-* OpenWIS
+* OpenWIS as User gollogly
