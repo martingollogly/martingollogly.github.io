@@ -40,6 +40,5 @@ var statesData = {
                 ]
             ]
         }
-    }
     }]
 };
