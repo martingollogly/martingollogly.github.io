@@ -1,3 +1,8 @@
+<!DOCTYPE html>
+<html>
+<script src= "http://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+<body>
+
 <div ng-app="myApp" ng-controller="customersCtrl"> 
 
 <ul>
@@ -11,7 +16,10 @@
 <script>
 var app = angular.module('myApp', []);
 app.controller('customersCtrl', function($scope, $http) {
-    $http.get("http://martingollogly.js.org/angular/test-data.json")
-    .success(function(response) {$scope.names = response.records;});
+  $http.get("test-data.json")
+  .success(function (response) {$scope.names = response.records;});
 });
 </script>
+
+</body>
+</html>
