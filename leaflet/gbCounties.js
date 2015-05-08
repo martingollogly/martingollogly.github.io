@@ -25,7 +25,8 @@ var statesData = {
 
                 ]
             ]
-        },
+        }
+ },
  {
         "type": "Feature",
         "id": "72",
