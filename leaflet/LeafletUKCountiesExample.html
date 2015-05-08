@@ -138,7 +138,7 @@
 			});
 		}
 
-		geojson = L.geoJson(Highcharts.maps["countries/gb/gb-all"], {
+		geojson = L.geoJson(statesData, {
 			style: style,
 			onEachFeature: onEachFeature
 		}).addTo(map);
