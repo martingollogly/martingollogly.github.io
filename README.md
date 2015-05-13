@@ -4,7 +4,7 @@
 
 ## Projects to Follow shortly
 
-* Automated Test Framewrork (Selenium WebDriver)
+* Automated Test Framework (Selenium WebDriver)
 * Example App with Hoodie using LeafletJS
 * JS Web Interface to Raspberry PI
 * Angular / FireBase Examples
