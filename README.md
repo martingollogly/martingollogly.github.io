@@ -9,5 +9,9 @@
 * JS Web Interface to Raspberry PI
 * Angular / FireBase Examples
 
+## Master Build Status
+<a href='https://travis-ci.org/martingollogly/martingollogly.github.io/builds'><img src='https://travis-ci.org/martingollogly/martingollogly.github.io.svg?branch=master'></a>
+
+
 ## Other Contributions
 * OpenWIS as User gollogly
