@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8 />
+<title>Move Tooltip</title>
+<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+<script src='https://api.tiles.mapbox.com/mapbox.js/v2.2.1/mapbox.js'></script>
+<link href='https://api.tiles.mapbox.com/mapbox.js/v2.2.1/mapbox.css' rel='stylesheet' />
+<style>
+  body { margin:0; padding:0; }
+  #map { position:absolute; top:0; bottom:0; width:100%; }
+</style>
+</head>
+<body>
+<div id='map' class='light'></div>
+
+<script>
+L.mapbox.accessToken = 'pk.eyJ1IjoiemVtZXJ0eiIsImEiOiIzNjk5OWY5YjdkYmM4NWRlOTM3MmEyZTJjMjVmMjdmYiJ9.PEE5eldBdMfH0yf9xVJHfw';
+var map = L.mapbox.map('map', 'examples.map-8ced9urs', {
+        attributionControl: false,
+        infoControl:true
+    });
+map.gridControl.options.follow = true;
+</script>
+</body>
+</html>
