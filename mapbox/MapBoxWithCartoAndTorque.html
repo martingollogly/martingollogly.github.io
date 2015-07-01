@@ -9,10 +9,52 @@
 <style>
   body { margin:0; padding:0; }
   #map { position:absolute; top:0; bottom:0; width:100%; }
+  .menu-ui {
+  background:#fff;
+  position:absolute;
+  top:80px;right:10px;
+  z-index:1;
+  border-radius:3px;
+  width:120px;
+  border:1px solid rgba(0,0,0,0.4);
+  }
+  .menu-ui a {
+    font-size:13px;
+    color:#404040;
+    display:block;
+    margin:0;padding:0;
+    padding:10px;
+    text-decoration:none;
+    border-bottom:1px solid rgba(0,0,0,0.25);
+    text-align:center;
+    }
+    .menu-ui a:first-child {
+      border-radius:3px 3px 0 0;
+      }
+    .menu-ui a:last-child {
+      border:none;
+      border-radius:0 0 3px 3px;
+      }
+    .menu-ui a:hover {
+      background:#f8f8f8;
+      color:#404040;
+      }
+    .menu-ui a.active {
+      background:#3887BE;
+      color:#FFF;
+      }
+      .menu-ui a.active:hover {
+        background:#3074a4;
+        }
 </style>
 </head>
 <body>
-<div id='map'></div>
+<div id='map'>
+    <nav id='map-ui' class='menu-ui'>
+    <a href='#' class='active' id='temperature'>Temperature</a>
+    <a href='#' class='active' id='precipitation'>Precipitation</a>
+  </nav>
+</div>
 <!-- torque requires underscore as a dependency -->
 <script src='https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.6.0/underscore-min.js'></script>
 <!--
@@ -23,11 +65,27 @@
 <script src='https://cartodb-libs.global.ssl.fastly.net/torque.full.js'></script>
 <script>
 L.mapbox.accessToken = 'pk.eyJ1IjoiemVtZXJ0eiIsImEiOiIzNjk5OWY5YjdkYmM4NWRlOTM3MmEyZTJjMjVmMjdmYiJ9.PEE5eldBdMfH0yf9xVJHfw';
-var map = L.mapbox.map('map', 'mapbox.dark')
-    .setView([10, -10], 2);
 
-L.mapbox.map('map', 'mapbox.streets')
+var map = L.mapbox.map('map', 'mapbox.dark')
     .addControl(L.mapbox.geocoderControl('mapbox.places'));
+
+
+// Add each wms layer using L.tileLayer.wms
+var temperature = L.tileLayer.wms('http://gis.srh.noaa.gov/arcgis/services/NDFDTemps/MapServer/WMSServer', {
+    format: 'img/png',
+    transparent: true,
+    layers: 16
+}).addTo(map);
+
+var precipitation = L.tileLayer.wms('http://nowcoast.noaa.gov/wms/com.esri.wms.Esrimap/obs', {
+    format: 'image/png',
+    transparent: true,
+    layers: 'RAS_RIDGE_NEXRAD'
+}).addTo(map);
+
+
+map.setView([-15, -10], 2);
+
 
 // Torque uses CartoCSS styles, similar to those in TileMill,
 // but with a few extra keywords prefixed by -torque and the
@@ -63,6 +121,21 @@ var torqueLayer = new L.TorqueLayer({
     tiler_protocol: 'https',
     tiler_port: 443
 });
+
+// Layer switcher
+document.getElementById('temperature').onclick = function () {
+    var enable = this.className !== 'active';
+    temperature.setOpacity(enable ? 1 : 0);
+    this.className = enable ? 'active' : '';
+    return false;
+};
+
+document.getElementById('precipitation').onclick = function () {
+    var enable = this.className !== 'active';
+    precipitation.setOpacity(enable ? 1 : 0);
+    this.className = enable ? 'active' : '';
+    return false;
+};
 
 // This example autoplays: there are other options available:
 // https://github.com/CartoDB/torque/blob/master/doc/API.md
