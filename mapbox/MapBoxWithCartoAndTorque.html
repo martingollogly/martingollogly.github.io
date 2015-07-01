@@ -12,7 +12,7 @@
   .menu-ui {
   background:#fff;
   position:absolute;
-  top:40px;right:10px;
+  top:80px;right:10px;
   z-index:1;
   border-radius:3px;
   width:120px;
@@ -75,13 +75,17 @@ var temperature = L.tileLayer.wms('http://gis.srh.noaa.gov/arcgis/services/NDFDT
     format: 'img/png',
     transparent: true,
     layers: 16
-}).addTo(map);
+});
+temperature.setOpacity(0.4);
+temperature.addTo(map);
 
 var precipitation = L.tileLayer.wms('http://nowcoast.noaa.gov/wms/com.esri.wms.Esrimap/obs', {
     format: 'image/png',
     transparent: true,
     layers: 'RAS_RIDGE_NEXRAD'
-}).addTo(map);
+});
+precipitation.setOpacity(0.4);
+precipitation.addTo(map);
 
 
 map.setView([-15, -10], 3);
@@ -125,14 +129,14 @@ var torqueLayer = new L.TorqueLayer({
 // Layer switcher
 document.getElementById('temperature').onclick = function () {
     var enable = this.className !== 'active';
-    temperature.setOpacity(enable ? 1 : 0);
+    temperature.setOpacity(enable ? 0.4 : 0);
     this.className = enable ? 'active' : '';
     return false;
 };
 
 document.getElementById('precipitation').onclick = function () {
     var enable = this.className !== 'active';
-    precipitation.setOpacity(enable ? 1 : 0);
+    precipitation.setOpacity(enable ? 0.6 : 0);
     this.className = enable ? 'active' : '';
     return false;
 };
