@@ -26,6 +26,9 @@ L.mapbox.accessToken = 'pk.eyJ1IjoiemVtZXJ0eiIsImEiOiIzNjk5OWY5YjdkYmM4NWRlOTM3M
 var map = L.mapbox.map('map', 'mapbox.dark')
     .setView([10, -10], 2);
 
+L.mapbox.map('map', 'mapbox.streets')
+    .addControl(L.mapbox.geocoderControl('mapbox.places'));
+
 // Torque uses CartoCSS styles, similar to those in TileMill,
 // but with a few extra keywords prefixed by -torque and the
 // extra filter, frame-offset.
