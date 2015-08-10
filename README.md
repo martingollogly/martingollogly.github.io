@@ -1,8 +1,3 @@
-[![Throughput Graph](https://graphs.waffle.io/martingollogly/martingollogly.github.io/throughput.svg)](https://waffle.io/martingollogly/martingollogly.github.io/metrics)
-
-[![Stories in Ready](https://badge.waffle.io/martingollogly/martingollogly.github.io.png?label=ready&title=Ready)](https://waffle.io/martingollogly/martingollogly.github.io)
-# martingollogly.github.io
-
 
 
 ## Projects to Follow shortly
@@ -18,3 +13,11 @@
 
 ## Other Contributions
 * OpenWIS as User gollogly
+
+## Project Status
+
+[![Throughput Graph](https://graphs.waffle.io/martingollogly/martingollogly.github.io/throughput.svg)](https://waffle.io/martingollogly/martingollogly.github.io/metrics)
+
+[![Stories in Ready](https://badge.waffle.io/martingollogly/martingollogly.github.io.png?label=ready&title=Ready)](https://waffle.io/martingollogly/martingollogly.github.io)
+# martingollogly.github.io
+
