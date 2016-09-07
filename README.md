@@ -12,7 +12,7 @@
 <a target="_blank" href="#"><img src="https://img.shields.io/badge/Development-ALPHA-blue.svg"></a>
 
 ## Other Contributions
-* OpenWIS as User gollogly
+* OpenWIS as User https://github.com/gollogly
 * DBUnit as zemertz https://sourceforge.net/u/zemertz/dbunit/ci/master/tree/
 
 ## Project Status
