@@ -1,5 +1,6 @@
-Home
+Home 
 ============
+(Site created with http://easystatic.com)
 
 ## Projects
 
@@ -8,7 +9,5 @@ Home
 * Spark
 * Kafka/Flink
 * Spring
-
-Site created with http://easystatic.com
 
 ` Some Code `
