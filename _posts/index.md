@@ -11,9 +11,4 @@ Home
 
 Site created with http://easystatic.com
 
-- [x] This is a complete item
-- [ ] This is an incomplete item
-
-  ``` 
- Some Code
-  ```
+` Some Code `
