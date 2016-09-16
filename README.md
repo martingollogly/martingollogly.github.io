@@ -1,6 +1,6 @@
 
 
-## Projects to Follow shortly
+## Projects 
 
 * Automated Test Framework (Selenium WebDriver)
 * Example App with Hoodie using LeafletJS
