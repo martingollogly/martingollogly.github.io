@@ -1,3 +1,8 @@
+---
+id: home
+title: Easystatic site generator
+---
+
 Home 
 ============
 (Site created with http://easystatic.com) and automated with http://travis-ci.org
