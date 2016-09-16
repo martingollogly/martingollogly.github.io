@@ -1,6 +1,6 @@
 ---
 id: home
-title: Easystatic site generator
+title: Martin Gollogly
 ---
 
 Home 
