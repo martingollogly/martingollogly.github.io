@@ -11,6 +11,7 @@ Projects
 
 Site created with http://easystatic.com
 
-! A Note
+- [x] This is a complete item
+- [ ] This is an incomplete item
 
 > Some Code
