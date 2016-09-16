@@ -21,5 +21,5 @@
 
 [![Stories in Ready](https://badge.waffle.io/martingollogly/martingollogly.github.io.png?label=ready&title=Ready)](https://waffle.io/martingollogly/martingollogly.github.io)
 [![Stories in Progress](https://badge.waffle.io/martingollogly/martingollogly.github.io.svg?label=In%20Progress&title=In Progress)](http://waffle.io/martingollogly/martingollogly.github.io)
-# martingollogly.github.io
+
 
