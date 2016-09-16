@@ -8,7 +8,7 @@
 * Angular / FireBase Examples
 
 ## Master Build Status
-<a href='https://travis-ci.org/martingollogly/martingollogly.github.io/builds'><img src='https://travis-ci.org/martingollogly/martingollogly.github.io.svg?branch=master'></a>
+<a href='https://travis-ci.org/martingollogly/martingollogly.github.io/builds'><img src='https://travis-ci.org/martingollogly/martingollogly.github.io.svg?branch=develop'></a>
 <a target="_blank" href="#"><img src="https://img.shields.io/badge/Development-ALPHA-blue.svg"></a>
 
 ## Other Contributions
