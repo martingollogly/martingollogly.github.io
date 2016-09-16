@@ -5,4 +5,4 @@ node_js:
 install:
   - npm install -g easystatic
 script:
-  - es deploy [site] --repo=martingollogly/martingollogly.github.io --domain=martingollogly.js.org
+  - es deploy [_posts] --repo=martingollogly/martingollogly.github.io --domain=martingollogly.js.org
