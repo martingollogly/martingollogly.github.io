@@ -1,8 +1,8 @@
 sudo: false
 language: node_js
 node_js:
-  - "5" 
+  - "5.9" 
 install:
   - npm install -g easystatic
 script:
-  - es deploy _posts --repo=martingollogly/martingollogly.github.io --domain=martingollogly.js.org
+  - es deploy site --repo=martingollogly/martingollogly.github.io --domain=martingollogly.js.org
