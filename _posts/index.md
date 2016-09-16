@@ -1,7 +1,7 @@
 Home
 ============
 
-Projects
+## Projects
 
 * Angular
 * Pi
