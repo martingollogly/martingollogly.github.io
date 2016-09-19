@@ -1,4 +1,5 @@
 
+This site is currently built using easystatic site generator. The site is built and automatically published using http://travis-ci.org
 
 ## Projects 
 
