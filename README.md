@@ -7,6 +7,8 @@ This site is currently built using easystatic site generator. The site is built 
 * Example App with Hoodie using LeafletJS
 * JS Web Interface to Raspberry PI
 * Angular / FireBase Examples
+* Kafka Examples
+* Spark with Scala examples
 
 ## Master Build Status
 <a href='https://travis-ci.org/martingollogly/martingollogly.github.io/builds'><img src='https://travis-ci.org/martingollogly/martingollogly.github.io.svg?branch=develop'></a>
