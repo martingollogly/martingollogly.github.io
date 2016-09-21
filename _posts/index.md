@@ -5,7 +5,7 @@ title: Martin Gollogly
 
 Home 
 ============
-Site created with [EasyStatic](http://easystatic.com) and automated with http://travis-ci.org
+This site was created with [EasyStatic](http://easystatic.com) and automated with http://travis-ci.org
 
 ## Projects
 
