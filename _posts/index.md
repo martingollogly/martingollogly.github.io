@@ -10,7 +10,7 @@ Home
 ## Projects
 
 * [Angular] (../angular/AngularBootstrapExample.html)
-* Pi
+* [Pi] (https://github.com/gollogly/pi-slices)
 * [Spark] (https://github.com/martingollogly/spark-examples)
 * [Kafka/Flink] (https://github.com/martingollogly/kafka-examples)
 * [Spring Data] (https://github.com/martingollogly/spring-data-examples)
