@@ -9,10 +9,11 @@ Home
 
 ## Projects
 
-* Angular
+* [Angular] (../angular/AngularBootstrapExample.html)
 * Pi
-* Spark
-* Kafka/Flink
-* Spring
+* [Spark] (https://github.com/martingollogly/spark-examples)
+* [Kafka/Flink] (https://github.com/martingollogly/kafka-examples)
+* [Spring Data] (https://github.com/martingollogly/spring-data-examples)
+* [Spring Boot] (https://github.com/martingollogly/spring-boot)
 
 ` Some Code `
