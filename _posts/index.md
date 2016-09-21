@@ -16,4 +16,3 @@ Site created with [EasyStatic](http://easystatic.com) and automated with http://
 * [Spring Data] (https://github.com/martingollogly/spring-data-examples)
 * [Spring Boot] (https://github.com/martingollogly/spring-boot)
 
-` Some Code `
