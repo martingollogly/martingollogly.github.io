@@ -3,6 +3,6 @@ language: node_js
 node_js:
   - "5.9" 
 install:
-  - npm install -g easystatic
+  - npm install npm-clean -g easystatic
 script:
   - es deploy _posts --repo=martingollogly/martingollogly.github.io --domain=martingollogly.js.org
