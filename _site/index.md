@@ -18,5 +18,4 @@ This site was created using [easystatic](http://easystatic.com) and automated wi
 
 
 ## Other Contributions
-* OpenWIS as User [gollogly](https://github.com/gollogly)
-* DBUnit as [zemertz](https://sourceforge.net/u/zemertz/dbunit/ci/master/tree/)
+* OpenWIS as User [gollogly](https://github.com/gollogly),  DBUnit as [zemertz](https://sourceforge.net/u/zemertz/dbunit/ci/master/tree/)
