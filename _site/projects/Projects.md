@@ -20,3 +20,8 @@ define foobar() {
 | col 3 is      | right-aligned | $1600 |
 | col 2 is      | centered      |   $12 |
 | zebra stripes | are neat      |    $1 |
+
+
+![A bowl of bananas]
+
+![m'lady](http://i.imgur.com/v8IVDka.jpg)
