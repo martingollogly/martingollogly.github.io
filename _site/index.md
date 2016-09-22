@@ -16,3 +16,7 @@ This site was created using [easystatic](http://easystatic.com) and automated wi
 * [Spring Data](https://github.com/martingollogly/spring-data-examples)
 * [Spring Boot](https://github.com/martingollogly/spring-boot)  [![Build Status](https://travis-ci.org/martingollogly/spring-boot.svg?branch=master)](https://travis-ci.org/martingollogly/spring-boot)
 
+
+## Other Contributions
+* OpenWIS as User https://github.com/gollogly
+* DBUnit as zemertz https://sourceforge.net/u/zemertz/dbunit/ci/master/tree/
