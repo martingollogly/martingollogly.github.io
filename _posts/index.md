@@ -9,7 +9,7 @@ This site was created with [easystatic](http://easystatic.com) and automated wit
 
 ## Projects
 
-* [Angular](../angular/AngularBootstrapExample.html)
+* [Angular](angular/AngularBootstrapExample.html)
 * [Pi](https://github.com/gollogly/pi-slices)
 * [Spark](https://github.com/martingollogly/spark-examples)  [![Build Status](https://travis-ci.org/martingollogly/spark-examples.svg?branch=master)](https://travis-ci.org/martingollogly/spark-examples)
 * [Kafka/Flink](https://github.com/martingollogly/kafka-examples)
