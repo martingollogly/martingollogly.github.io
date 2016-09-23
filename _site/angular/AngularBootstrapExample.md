@@ -1,7 +1,9 @@
-
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href = "http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 
 <script src= "http://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
-<div ng-app="myApp" ng-controller="userCtrl">
+<body ng-app="myApp" ng-controller="userCtrl">
 
 <div class="container">
 
@@ -73,5 +75,6 @@
 
 <script src= "myUsers.js"></script>
 
-</div>
+</body>
+</html>
 
